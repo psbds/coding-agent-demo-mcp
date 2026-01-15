@@ -1,3 +1,11 @@
+# 1.0.0 (2026-01-15)
+
+
+### Features
+
+* initalize repository ([1386169](https://github.com/psbds/coding-agent-demo-mcp/commit/1386169379b25eb73d8707f839485d7a8c6e59da))
+* initalize repository ([6396b27](https://github.com/psbds/coding-agent-demo-mcp/commit/6396b2773bac1504a840c1910bacb3a56e634c87))
+
 # [1.2.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.1.0...v1.2.0) (2025-10-23)
 
 

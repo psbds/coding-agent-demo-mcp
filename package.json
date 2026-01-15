@@ -1,6 +1,6 @@
 {
     "name": "@psbds/coding-agent-demo-mcp",
-    "version": "1.2.0",
+    "version": "1.0.0",
     "description": "",
     "type": "module",
     "main": "index.js",
