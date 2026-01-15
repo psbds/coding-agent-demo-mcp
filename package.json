@@ -1,0 +1,52 @@
+{
+    "name": "@psbds/coding-agent-demo-mcp",
+    "version": "1.2.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "bin": {
+        "coding-agent-demo-mcp": "./dist/index.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc && cp -r knowledge_base dist/",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^9.2.6",
+        "@semantic-release/npm": "^11.0.3",
+        "mcp-dev-blueprints": "^1.0.1",
+        "semantic-release": "^22.0.12"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=18.19.0"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "server",
+        "express",
+        "enterprise-patterns"
+    ],
+    "author": "Paulo Baima <paulosergiob@microsoft.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/psbds/coding-agent-demo-mcp.git"
+    },
+    "homepage": "https://github.com/psbds/coding-agent-demo-mcp#readme",
+    "bugs": {
+        "url": "https://github.com/psbds/coding-agent-demo-mcp/issues"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "java-standards",
+        "path": "java-standards",
+        "features": [
+            "java_quarkus/api_client_creation/definition.json"
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "servers": {
+        "dev": {
+            "type": "stdio",
+            "command": "npm",
+            "args": [
+                "run",
+                "start",
+                "--",
+                "--mode",
+                "stdio"
+            ]
+        }
+    },
+    "inputs": []
+}
