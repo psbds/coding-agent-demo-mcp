@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.0.0...v1.1.0) (2026-01-15)
+
+
+### Features
+
+* add unit test instructions prompt ([ac06746](https://github.com/psbds/coding-agent-demo-mcp/commit/ac067468bf746a8debb17aafff2e9b08efa63809))
+
 # 1.0.0 (2026-01-15)
 
 
