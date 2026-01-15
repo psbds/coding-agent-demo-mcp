@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.1.0...v1.1.1) (2026-01-15)
+
+
+### Bug Fixes
+
+* add prepare script ([37814d0](https://github.com/psbds/coding-agent-demo-mcp/commit/37814d0baf93d2c4969b1a600c4dc630908ed984))
+
 # [1.1.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.0.0...v1.1.0) (2026-01-15)
 
 
