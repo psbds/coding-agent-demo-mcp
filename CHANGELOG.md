@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.2.0...v1.3.0) (2026-01-16)
+
+
+### Features
+
+* add update_project_documentation prompt ([cd8b06f](https://github.com/psbds/coding-agent-demo-mcp/commit/cd8b06f7005257ca6445383cb0dee2b09fb16845))
+
 # [1.2.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.1.1...v1.2.0) (2026-01-16)
 
 
