@@ -3,6 +3,7 @@
         "name": "java-standards",
         "path": "java-standards",
         "features": [
+            "java_quarkus/project_structure/definition.json",
             "java_quarkus/unit_test_instructions/definition.json",
             "java_quarkus/api_client_creation/definition.json"
         ]
