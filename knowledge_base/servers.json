@@ -5,7 +5,8 @@
         "features": [
             "java_quarkus/project_structure/definition.json",
             "java_quarkus/unit_test_instructions/definition.json",
-            "java_quarkus/api_client_creation/definition.json"
+            "java_quarkus/api_client_creation/definition.json",
+            "java_quarkus/update_project_documentation/definition.json"
         ]
     }
 ]
