@@ -8,7 +8,8 @@
             "java_quarkus/api_client_creation/definition.json",
             "java_quarkus/update_project_documentation/definition.json",
             "java_quarkus/setup_open_telemetry/definition.json",
-            "java_quarkus/dto_instructions/definition.json"
+            "java_quarkus/dto_instructions/definition.json",
+            "java_quarkus/cloud_services/redis/definition.json"
         ]
     }
 ]
