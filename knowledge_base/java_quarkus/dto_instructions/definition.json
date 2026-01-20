@@ -1,0 +1,20 @@
+{
+    "tools": [
+        {
+            "id": "dto_creation_guidelines",
+            "title": "DTO Creation Guidelines [Java Quarkus]",
+            "description": "Comprehensive guidelines and best practices for creating Data Transfer Objects (DTOs) in Java Quarkus projects, including JSON property annotations, validation, and Lombok integration.",
+            "content": [
+                {
+                    "type": "file",
+                    "path": "java_quarkus/dto_instructions/instructions.md"
+                }
+            ]
+        }
+    ],
+    "resources": [],
+    "prompts": [],
+    "custom_tools": [],
+    "custom_resources": [],
+    "custom_prompts": []
+}
