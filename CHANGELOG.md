@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.3.0...v1.4.0) (2026-01-20)
+
+
+### Features
+
+* add open_telemetry and dto_instructions tool ([aa02bf7](https://github.com/psbds/coding-agent-demo-mcp/commit/aa02bf7e495f2fa91d0285c68e229e49d07c5e48))
+
 # [1.3.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.2.0...v1.3.0) (2026-01-16)
 
 
