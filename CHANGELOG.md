@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.8.0...v1.9.0) (2026-01-21)
+
+
+### Features
+
+* update tools ([0b7bc93](https://github.com/psbds/coding-agent-demo-mcp/commit/0b7bc93b6bcced36b8cbede9219307cfb8b7ae84))
+
 # [1.8.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.7.1...v1.8.0) (2026-01-21)
 
 
