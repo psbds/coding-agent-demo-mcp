@@ -192,6 +192,21 @@ void createItem_when_validRequest_should_callServiceAndReturnResponse() {
 
 **Exception**: The only exception is when `@Inject` is followed by `@RestClient` annotation - these can be tested with regular unit tests using manual mocking.
 
+**Required Import:**
+```java
+import io.quarkus.test.component.QuarkusComponentTest;
+```
+
+**Required Maven Dependency:**
+```xml
+<dependency>
+    <groupId>io.quarkus</groupId>
+    <artifactId>quarkus-junit5-component</artifactId>
+    <scope>test</scope>
+</dependency>
+```
+
+**Example:**
 ```java
 @QuarkusComponentTest
 class BlocklistAPIWrapperTest {

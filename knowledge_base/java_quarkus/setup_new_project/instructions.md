@@ -68,9 +68,68 @@ Replace `my-project-name` with your actual project name.
 
 2. Verify the project structure was created correctly
 
-3. Follow the project structure guidelines from the `project_structure` documentation
+3. **Important**: Delete the default Dockerfile configurations that Quarkus creates in the `src/main/docker` folder. These auto-generated Docker files should NOT be used.
+   ```bash
+   rm -rf src/main/docker
+   ```
 
-4. Apply default configurations from the `project_default_configuration` documentation
+4. Follow the project structure guidelines from the `project_structure` documentation
+
+5. Apply default configurations from the `project_default_configuration` documentation
+
+6. Create a `.gitignore` file in the root of the project with the standard template (see section below)
+
+## Standard .gitignore Template
+
+Always create a `.gitignore` file in the root of new Java Quarkus web application projects with the following content:
+
+```gitignore
+#Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+.flattened-pom.xml
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+
+# Plugin directory
+/.quarkus/cli/plugins/
+# TLS Certificates
+.certs/
+```
 
 ## Project Naming Conventions
 

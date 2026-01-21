@@ -4,7 +4,36 @@ This document defines the mandatory default configurations that **MUST** be pres
 
 ---
 
-## 1. OpenTelemetry Configuration (MANDATORY)
+## 1. Java Version (MANDATORY)
+
+Every Java Quarkus project **MUST** target Java 21 as the minimum Java version.
+
+### Requirements
+- **Source Compatibility**: Java 21
+- **Target Compatibility**: Java 21
+- **Maven/Gradle Configuration**: Must specify Java 21 in build configuration
+- **Runtime**: Applications must run on Java 21 or higher
+
+### Maven Configuration Example
+```xml
+<properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <maven.compiler.release>21</maven.compiler.release>
+</properties>
+```
+
+### Gradle Configuration Example
+```gradle
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+```
+
+---
+
+## 2. OpenTelemetry Configuration (MANDATORY)
 
 Every Java Quarkus project **MUST** have OpenTelemetry configured for distributed tracing, metrics, and logging.
 
@@ -13,7 +42,7 @@ Use the `setup_open_telemetry_java_quarkus` tool to implement the complete OpenT
 
 ---
 
-## 2. OpenAPI (Swagger) Configuration (MANDATORY)
+## 3. OpenAPI (Swagger) Configuration (MANDATORY)
 
 Every Java Quarkus project **MUST** have OpenAPI (Swagger) configured for API documentation.
 
@@ -22,7 +51,7 @@ Use the `setup_swagger` tool to implement the complete OpenAPI/Swagger configura
 
 ---
 
-## 3. Health Checks Configuration (MANDATORY)
+## 4. Health Checks Configuration (MANDATORY)
 
 Every Java Quarkus project **MUST** have health checks configured for monitoring and container orchestration (Kubernetes/Docker).
 
@@ -42,7 +71,7 @@ Use the `setup_healthcheck` tool to implement the complete health check configur
 
 ---
 
-## 4. Docker Configuration (MANDATORY)
+## 5. Docker Configuration (MANDATORY)
 
 Every Java Quarkus project **MUST** have Docker configuration for containerization and deployment.
 

@@ -29,7 +29,7 @@ COPY --from=build target/quarkus-app/lib/ /opt/deploy/lib/
 COPY --from=build target/quarkus-app/app/ /opt/deploy/app/
 COPY --from=build target/quarkus-app/quarkus/ /opt/deploy/quarkus/
 
-EXPOSE 80
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar","/opt/deploy/quarkus-run.jar"]
 ```
 
@@ -94,9 +94,9 @@ COPY --from=build target/quarkus-app/quarkus/ /opt/deploy/quarkus/
   - `quarkus/`: Quarkus framework files
 
 ```dockerfile
-EXPOSE 80
+EXPOSE 8080
 ```
-- Documents that the application listens on port 80
+- Documents that the application listens on port 8080
 - Note: This is declarative; actual port mapping occurs at runtime
 
 ```dockerfile
@@ -124,12 +124,12 @@ docker build -t my-quarkus-app:1.0.0 .
 To run the container:
 
 ```bash
-docker run -p 8080:80 your-app-name:version
+docker run -p 8080:8080 your-app-name:version
 ```
 
 With environment variables:
 ```bash
-docker run -p 8080:80 \
+docker run -p 8080:8080 \
   -e QUARKUS_DATASOURCE_JDBC_URL=jdbc:postgresql://host:5432/db \
   -e QUARKUS_DATASOURCE_USERNAME=user \
   -e QUARKUS_DATASOURCE_PASSWORD=pass \
@@ -160,10 +160,10 @@ Create a `.dockerignore` file in the root directory using a whitelist approach (
 - Keeps the build context small and secure
 
 ### 2. Port Configuration
-Ensure your `application.properties` or `application.yml` configures Quarkus to listen on port 80:
+Ensure your `application.properties` or `application.yml` configures Quarkus to listen on port 8080:
 
 ```properties
-quarkus.http.port=80
+quarkus.http.port=8080
 quarkus.http.host=0.0.0.0
 ```
 
@@ -172,7 +172,7 @@ Add health check configuration to the Dockerfile:
 
 ```dockerfile
 HEALTHCHECK --interval=30s --timeout=3s --start-period=30s --retries=3 \
-  CMD curl -f http://localhost:80/q/health || exit 1
+  CMD curl -f http://localhost:8080/q/health || exit 1
 ```
 
 ### 4. Non-Root User (Security Enhancement)
@@ -195,7 +195,7 @@ COPY --from=build --chown=appuser:appuser target/quarkus-app/quarkus/ /opt/deplo
 
 USER appuser
 
-EXPOSE 80
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar","/opt/deploy/quarkus-run.jar"]
 ```
 
