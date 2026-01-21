@@ -42,6 +42,21 @@ Use the `setup_healthcheck` tool to implement the complete health check configur
 
 ---
 
+## 4. Docker Configuration (MANDATORY)
+
+Every Java Quarkus project **MUST** have Docker configuration for containerization and deployment.
+
+### Implementation
+Use the `setup_dockerfile` tool to implement the complete Docker configuration for the project. This tool provides all necessary guidelines and Dockerfile setup instructions.
+
+### Requirements
+- **Dockerfile**: Mandatory - defines the container image build process
+- **Multi-stage build**: Recommended - optimizes image size and security
+- **Base image**: Use official Quarkus base images or approved enterprise images
+- **.dockerignore**: Mandatory - excludes unnecessary files from the build context
+
+---
+
 ---
 
 ## Implementation Guidelines

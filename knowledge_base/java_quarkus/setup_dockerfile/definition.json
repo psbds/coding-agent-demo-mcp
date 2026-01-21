@@ -1,0 +1,20 @@
+{
+    "tools": [
+        {
+            "id": "setup_dockerfile",
+            "title": "Setup Dockerfile for Java Quarkus",
+            "description": "Guidelines for setting up Dockerfile for Java Quarkus projects, including best practices for building, optimizing, and deploying containerized applications.",
+            "content": [
+                {
+                    "type": "file",
+                    "path": "java_quarkus/setup_dockerfile/instructions.md"
+                }
+            ]
+        }
+    ],
+    "resources": [],
+    "prompts": [],
+    "custom_tools":[],
+    "custom_resources":[],
+    "custom_prompts":[]
+}
