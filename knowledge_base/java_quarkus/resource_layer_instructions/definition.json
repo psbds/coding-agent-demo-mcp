@@ -7,7 +7,7 @@
             "content": [
                 {
                     "type": "file",
-                    "path": "java_quarkus/resource_layer/instructions.md"
+                    "path": "java_quarkus/resource_layer_instructions/instructions.md"
                 }
             ]
         }
