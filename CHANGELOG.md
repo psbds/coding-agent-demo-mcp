@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.4.0...v1.5.0) (2026-01-20)
+
+
+### Features
+
+* add redis cache tool ([8630ada](https://github.com/psbds/coding-agent-demo-mcp/commit/8630ada321adf6bb20bdf8567dd838b189829c4b))
+
 # [1.4.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.3.0...v1.4.0) (2026-01-20)
 
 
