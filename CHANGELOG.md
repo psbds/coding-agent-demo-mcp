@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.7.1...v1.8.0) (2026-01-21)
+
+
+### Features
+
+* add docker instructions tool ([e803371](https://github.com/psbds/coding-agent-demo-mcp/commit/e8033719cf7766420d0382331098b1e6d66e91cd))
+* add setup healthcheck and setup new project tools ([29c3e43](https://github.com/psbds/coding-agent-demo-mcp/commit/29c3e43ec55360858a4ebe407906c07aa825e4d5))
+
 ## [1.7.1](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.7.0...v1.7.1) (2026-01-21)
 
 
