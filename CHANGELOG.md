@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.6.0...v1.7.0) (2026-01-21)
+
+
+### Features
+
+* tools project_default_configuration and setup_swagger ([e6b323a](https://github.com/psbds/coding-agent-demo-mcp/commit/e6b323a8549ea6349c1b84fb0c157fca31761ee3))
+
 # [1.6.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.5.0...v1.6.0) (2026-01-21)
 
 
