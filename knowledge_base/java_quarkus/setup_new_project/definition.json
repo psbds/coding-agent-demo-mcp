@@ -1,0 +1,20 @@
+{
+    "tools": [
+        {
+            "id": "setup_new_project",
+            "title": "Setup New Project Guidelines [Java Quarkus]",
+            "description": "Detailed guidelines for setting up a new project in Java Quarkus, including initial configuration, project structure, and best practices.",
+            "content": [
+                {
+                    "type": "file",
+                    "path": "java_quarkus/setup_new_project/instructions.md"
+                }
+            ]
+        }
+    ],
+    "resources": [],
+    "prompts": [],
+    "custom_tools":[],
+    "custom_resources":[],
+    "custom_prompts":[]
+}

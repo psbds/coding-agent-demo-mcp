@@ -12,7 +12,9 @@
             "java_quarkus/cloud_services/redis/definition.json",
             "java_quarkus/resource_layer_instructions/definition.json",
             "java_quarkus/project_default_configuration/definition.json",
-            "java_quarkus/setup_swagger/definition.json"
+            "java_quarkus/setup_swagger/definition.json",
+            "java_quarkus/setup_healthcheck/definition.json",
+            "java_quarkus/setup_new_project/definition.json"
         ]
     }
 ]

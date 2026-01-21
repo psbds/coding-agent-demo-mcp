@@ -22,15 +22,25 @@ Use the `setup_swagger` tool to implement the complete OpenAPI/Swagger configura
 
 ---
 
-## 3. Additional Default Configurations (To Be Added)
+## 3. Health Checks Configuration (MANDATORY)
 
-This section is reserved for future mandatory configurations such as:
-- Logging standards and configuration
-- Security configurations (authentication/authorization)
-- Database connection pooling settings
-- Health check and liveness/readiness probes
-- Resource limits and requests in Kubernetes
-- Environment-specific configuration management
+Every Java Quarkus project **MUST** have health checks configured for monitoring and container orchestration (Kubernetes/Docker).
+
+### Implementation
+Use the `setup_healthcheck` tool to implement the complete health check configuration for the project. This tool provides all necessary guidelines.
+
+### Requirements
+- **Liveness Probe**: Mandatory - indicates if the application is running
+- **Readiness Probe**: Mandatory - indicates if the application is ready to handle requests
+- **Startup Probe**: Optional - useful for slow-starting applications
+
+### Endpoints
+- `/q/health` - All health checks
+- `/q/health/live` - Liveness only
+- `/q/health/ready` - Readiness only
+- `/q/health/started` - Startup only (if implemented)
+
+---
 
 ---
 
@@ -54,6 +64,7 @@ Before marking a project as complete, validate that:
 - Environment variables are documented in the project README
 - Deployment manifests include all required components
 - The application successfully starts with all configurations enabled
+- Health check endpoints are accessible and returning expected responses (`/q/health/live` and `/q/health/ready`)
 
 ---
 
