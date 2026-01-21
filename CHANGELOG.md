@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.5.0...v1.6.0) (2026-01-21)
+
+
+### Features
+
+* add resource layer tool ([0fcde36](https://github.com/psbds/coding-agent-demo-mcp/commit/0fcde36ae7dcaaca05b189accdfb2120496937f0))
+
 # [1.5.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.4.0...v1.5.0) (2026-01-20)
 
 
