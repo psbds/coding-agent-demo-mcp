@@ -1,0 +1,20 @@
+{
+    "tools": [
+        {
+            "id": "resource_layer_instructions_definition",
+            "title": "Resource Layer Implementation Guidelines [Java Quarkus]",
+            "description": "Comprehensive instructions for implementing the resource layer in Java Quarkus applications",
+            "content": [
+                {
+                    "type": "file",
+                    "path": "java_quarkus/resource_layer/instructions.md"
+                }
+            ]
+        }
+    ],
+    "resources": [],
+    "prompts": [],
+    "custom_tools":[],
+    "custom_resources":[],
+    "custom_prompts":[]
+}
