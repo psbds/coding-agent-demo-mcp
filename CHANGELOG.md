@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.7.0...v1.7.1) (2026-01-21)
+
+
+### Bug Fixes
+
+* fix wrong path ([759118c](https://github.com/psbds/coding-agent-demo-mcp/commit/759118c9acf43ae6705307e5162898df6732ad4f))
+
 # [1.7.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.6.0...v1.7.0) (2026-01-21)
 
 
