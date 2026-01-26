@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.9.0...v1.10.0) (2026-01-26)
+
+
+### Features
+
+* convert knowledge base to skills format ([fdc5996](https://github.com/psbds/coding-agent-demo-mcp/commit/fdc5996012c575864c83942d2f4db66b8068f83d))
+
 # [1.9.0](https://github.com/psbds/coding-agent-demo-mcp/compare/v1.8.0...v1.9.0) (2026-01-21)
 
 
