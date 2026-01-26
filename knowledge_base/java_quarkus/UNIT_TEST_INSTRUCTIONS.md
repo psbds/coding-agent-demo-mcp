@@ -1,3 +1,8 @@
+---
+name: unit_test_instructions
+description: For Java Quarkus, get comprehensive guidelines and best practices for creating unit tests in Java projects, including naming conventions, testing frameworks, and directory structures.
+---
+
 # Unit Test Creation Guidelines for Java/Quarkus Projects
 
 ## Overview

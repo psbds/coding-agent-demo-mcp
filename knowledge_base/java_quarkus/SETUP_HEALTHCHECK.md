@@ -1,3 +1,8 @@
+---
+name: setup_healthcheck
+description: Detailed guidelines for setting up health checks in Java Quarkus projects, including configuration, implementation, and best practices for monitoring application health.
+---
+
 # Health Check Implementation Guide for Java Quarkus
 
 ## Overview

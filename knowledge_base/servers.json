@@ -2,20 +2,9 @@
     {
         "name": "java-standards",
         "path": "java-standards",
-        "features": [
-            "java_quarkus/project_structure/definition.json",
-            "java_quarkus/unit_test_instructions/definition.json",
-            "java_quarkus/api_client_creation/definition.json",
-            "java_quarkus/update_project_documentation/definition.json",
-            "java_quarkus/setup_open_telemetry/definition.json",
-            "java_quarkus/dto_instructions/definition.json",
-            "java_quarkus/cloud_services/redis/definition.json",
-            "java_quarkus/resource_layer_instructions/definition.json",
-            "java_quarkus/project_default_configuration/definition.json",
-            "java_quarkus/setup_swagger/definition.json",
-            "java_quarkus/setup_healthcheck/definition.json",
-            "java_quarkus/setup_new_project/definition.json",
-            "java_quarkus/setup_dockerfile/definition.json"
+        "features": [],
+        "skills":[
+            "java_quarkus/*.md"
         ]
     }
 ]

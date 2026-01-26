@@ -1,3 +1,8 @@
+---
+name: setup_open_telemetry_java_quarkus
+description: For Java Quarkus, get comprehensive guidelines and best practices for setting up Open Telemetry in Java projects, including configuration, instrumentation, and monitoring.
+---
+
 # Action
 
 Use this step-by-step guide to configure OpenTelemetry in a Java Quarkus project

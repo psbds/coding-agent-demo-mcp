@@ -1,3 +1,8 @@
+---
+name: setup_dockerfile
+description: Guidelines for setting up Dockerfile for Java Quarkus projects, including best practices for building, optimizing, and deploying containerized applications.
+---
+
 # Dockerfile Setup Instructions for Java Quarkus Application
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: project_default_configuration
+description: Guidelines for setting up default configurations in Java Quarkus projects, covering essential settings, environment configurations, and best practices to ensure optimal performance and maintainability.
+---
+
 # Default Configurations for Java Quarkus Projects
 
 This document defines the mandatory default configurations that **MUST** be present in every Java Quarkus project. These configurations ensure consistency, observability, and adherence to best practices across all projects.

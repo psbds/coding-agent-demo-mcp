@@ -1,3 +1,8 @@
+---
+name: setup_new_project
+description: Detailed guidelines for setting up a new project in Java Quarkus, including initial configuration, project structure, and best practices.
+---
+
 # How to Create a New Java Quarkus Project
 
 ## Prerequisites

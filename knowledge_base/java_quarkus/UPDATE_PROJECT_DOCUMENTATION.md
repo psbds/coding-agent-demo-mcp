@@ -1,3 +1,8 @@
+---
+name: atualizar_documentacao_projeto
+description: Instruções detalhadas para criar e atualizar a documentação do projeto ou aplicação Java Quarkus.
+---
+
 # Action
 
 Use this step-by-step guide and update my SETTINGS.md documentation

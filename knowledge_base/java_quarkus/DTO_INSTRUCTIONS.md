@@ -1,3 +1,8 @@
+---
+name: dto_creation_guidelines
+description: Comprehensive guidelines and best practices for creating Data Transfer Objects (DTOs) in Java Quarkus projects, including JSON property annotations, validation, and Lombok integration.
+---
+
 # Java Quarkus DTO Creation Guidelines
 
 ## Overview

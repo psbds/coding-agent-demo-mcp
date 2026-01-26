@@ -1,3 +1,8 @@
+---
+name: api_client_creation_guidelines
+description: Comprehensive guidelines for creating standardized API clients in Java Quarkus projects. Covers auto-detection of base package structure, proper directory organization with backends folder structure, implementation of REST client interfaces with JAX-RS annotations, wrapper classes for error handling and null safety, DTO models with Jackson JSON mapping, OIDC authentication setup for service-to-service communication, required Maven dependencies (REST client, OIDC filter, Jackson, Lombok), standardized naming conventions for classes and packages, configuration management with environment variables, best practices and documentation standards.
+---
+
 # API Client Creation Instructions
 
 ## ⚠️ MANDATORY PRE-REQUISITE ⚠️

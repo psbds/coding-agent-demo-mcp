@@ -1,3 +1,8 @@
+---
+name: setup_swagger
+description: Detailed guidelines for setting up Swagger in Java Quarkus projects, including configuration, customization, and best practices for API documentation.
+---
+
 # Swagger/OpenAPI Implementation for Java Quarkus Applications
 
 This guide provides comprehensive instructions for implementing Swagger/OpenAPI documentation in Java Quarkus applications using SmallRye OpenAPI.

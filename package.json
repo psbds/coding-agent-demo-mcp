@@ -20,7 +20,7 @@
         "@semantic-release/git": "^10.0.1",
         "@semantic-release/github": "^9.2.6",
         "@semantic-release/npm": "^11.0.3",
-        "mcp-dev-blueprints": "^1.0.1",
+        "mcp-dev-blueprints": "^1.1.0",
         "semantic-release": "^22.0.12"
     },
     "devDependencies": {

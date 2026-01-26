@@ -1,3 +1,8 @@
+---
+name: resource_layer_instructions_definition
+description: Comprehensive instructions for implementing the resource layer in Java Quarkus applications
+---
+
 # REST Endpoints Resource Creation Guide
 
 This guide provides detailed instructions on how to create Resource files following a standard architectural pattern for Quarkus projects.

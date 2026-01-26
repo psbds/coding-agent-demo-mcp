@@ -1,3 +1,8 @@
+---
+name: project_structure_definition
+description: Detailed guidelines for structuring Java Quarkus projects, including directory organization, package naming conventions, configuration management, and best practices for maintainable and scalable codebases.
+---
+
 # Java Quarkus Project Structure Guidelines
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: implement_redis
+description: Detailed instructions for implementing Redis Cache in Quarkus projects.
+---
+
 # Redis Cache Implementation Guide - Quarkus Project
 
 This guide provides complete instructions for implementing Redis cache in Quarkus projects.
@@ -43,7 +48,7 @@ meu-projeto.cache.usuarios.ttl-seconds=3600
 meu-projeto.cache.produtos.ttl-seconds=7200
 ```
 
-## � IMPORTANTE: Escopo da Solicitação
+## 🔴 IMPORTANTE: Escopo da Solicitação
 
 ### ⚠️ "Configure o Redis cache nessa aplicação"
 
